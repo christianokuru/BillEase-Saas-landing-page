@@ -1,18 +1,20 @@
 <script setup>
 const props = defineProps({
-    icon: {
-        type: String,
-    },
-    text: {
-        type: String,
-        required: true
-    }
-})
+  icon: {
+    type: String,
+  },
+  text: {
+    type: String,
+    required: true,
+  },
+});
 </script>
 
 <template>
-    <button class="flex items-center text-nowrap py-[13px]">
-        {{ text }}
-        <img :src="icon" alt="icon" class="ml-[76px] mr-[28px]">
-    </button>
+  <button
+    class="flex items-center text-nowrap py-[13px] pl-[26px] rounded-[6px]"
+  >
+    {{ text }}
+    <img :src="icon" alt="icon" class="mr-[24px] ml-[44px]" />
+  </button>
 </template>
