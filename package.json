@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "bill-ease",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.0.6",
     "nuxt": "^3.15.4",
+    "tailwindcss": "^4.0.6",
     "vue": "latest",
     "vue-router": "latest"
   }
