@@ -23,7 +23,7 @@ import { navlinks } from "@/lib/navlinks.js";
       <button-component
         text="Sign In"
         :icon="arrow"
-        class="bg-green text-lemon"
+        class="bg-green text-lemon hover:bg-[#0e2e28db]"
       />
     </div>
   </div>
