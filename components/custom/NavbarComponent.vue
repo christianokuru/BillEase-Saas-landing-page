@@ -16,7 +16,7 @@ import { navlinks } from "@/lib/navlinks.js";
         <nav v-for="links in navlinks" :key="links.text">
           <nuxt-link
             :to="links.route"
-            class="mr-[36px] text-green text-[16px]"
+            class="mr-[36px] text-green text-[16px] hover:border-b-2"
             >{{ links.text }}</nuxt-link
           >
         </nav>

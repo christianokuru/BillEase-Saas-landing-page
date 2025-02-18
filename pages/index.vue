@@ -1,9 +1,9 @@
 <script setup>
-
+import HeaderSectionComponent from '@/components/custom/HeaderSectionComponent.vue';
 </script>
 
 <template>
     <div>
-        <h1>this is the homepage</h1>
+        <header-section-component />
     </div>
 </template>
