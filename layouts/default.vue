@@ -4,7 +4,7 @@ import FooterComponent from "@/components/custom/FooterComponent.vue";
 </script>
 
 <template>
-  <main class="border ">
+  <main class="border w-[1440px] mx-auto">
     <navbar-component />
     <nuxt-page />
     <footer-component />
