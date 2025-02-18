@@ -7,6 +7,23 @@
     --color-lemon: #CDFA8A;
     --color-black: #353535;
     --color-background: #F4F9F8;
+
+    /* --font-weight-regular: 1000; */
+
+    --text-heading1: 72px; 
+    --text-heading2: 48px; 
+    --text-sub-heading: 36px; 
+    --text-sub-heading2: 20px; 
+    --text-body-xl: 21px; 
+    --text-body-lg: 20px; 
+    --text-body-md: 16px; 
+    --text-body-sm: 14px; 
+    --text-button: 20px; 
+
+    --spacing-heading2: 56px;
+    --spacing-sub-heading: 48px; 
+    --spacing-sub-heading2: 24px;
+    --spacing-body-lg: 28px;
   }
 
   
