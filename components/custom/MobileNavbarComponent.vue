@@ -42,8 +42,8 @@ const toggleMenu = () => {
       v-if="isMenuOpen"
       class="w-full bg-white shadow-lg p-4 pt-[40px] absolute left-0 top-0"
     >
-      <div class="mb-[43px]">
-        <button @click="toggleMenu" class="pl-[22rem]">
+      <div class="flex flex-row-reverse mb-[43px]">
+        <button @click="toggleMenu">
           <img v-if="!isMenuOpen" src="" alt="" />
           <svg
             v-else
