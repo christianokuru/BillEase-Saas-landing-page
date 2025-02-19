@@ -3,6 +3,7 @@
 import { ref } from "vue";
 import { navlinks } from "@/lib/navlinks.js";
 import ButtonComponent from "@/components/custom/ButtonComponent.vue";
+import LogoComponent from '@/components/custom/LogoComponent.vue'
 import arrow from "@/assets/icons/arrow-right.svg";
 import hamburger from "@/assets/icons/hamburger.svg";
 
@@ -42,7 +43,8 @@ const toggleMenu = () => {
       v-if="isMenuOpen"
       class="w-full bg-white shadow-lg p-4 pt-[40px] absolute left-0 top-0"
     >
-      <div class="flex flex-row-reverse mb-[43px]">
+      <div class="flex justify-between mb-[43px]">
+        <logo-component />
         <button @click="toggleMenu">
           <img v-if="!isMenuOpen" src="" alt="" />
           <svg
