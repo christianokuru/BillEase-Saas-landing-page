@@ -6,8 +6,8 @@ import { navlinks } from "@/lib/navlinks.js";
 </script>
 
 <template>
-  <div class="mb-[122px]">
-    <div class="flex items-center mt-[40px] mb-[10px]">
+  <div class="mb-[122px] max-sm:mb-[50px]">
+    <div class="max-sm:mt-[36px] flex items-center mt-[40px] mb-[10px]">
       <div class="mr-[266px]">
         <logo-component />
       </div>
