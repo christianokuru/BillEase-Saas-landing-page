@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-    --color-*: initial; /* Disable the all default colors */
+    /* --color-*: initial; Disable the all default colors */
     --color-white: #F4F9F8;
     --color-green: #0E2E28;
     --color-lemon: #CDFA8A;
