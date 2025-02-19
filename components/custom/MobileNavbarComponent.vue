@@ -40,18 +40,38 @@ const toggleMenu = () => {
     <!-- Mobile Navigation Dropdown -->
     <div
       v-if="isMenuOpen"
-      class="bg-white shadow-lg rounded-lg p-4 absolute  left-0 top-16"
+      class="w-full bg-white shadow-lg p-4 pt-[40px] absolute left-0 top-0"
     >
-      <nav v-for="links in navlinks" :key="links.text">
+      <div class="mb-[43px]">
+        <button @click="toggleMenu" class="pl-[22rem]">
+          <img v-if="!isMenuOpen" src="" alt="" />
+          <svg
+            v-else
+            class="w-6 h-8 text-red-600"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
+      <nav v-for="links in navlinks" :key="links.text" class="mb-[19px]">
         <nuxt-link
           :to="links.route"
-          class="block py-2 text-green text-[16px] hover:border-b-2"
+          class="block py-2 text-green text-body-md hover:underline"
           >{{ links.text }}</nuxt-link
         >
       </nav>
 
       <!-- Sign In Button (Mobile) -->
-      <div class="mt-4">
+      <div class="mt-[62px]">
         <button-component
           text="Sign In"
           :icon="arrow"
