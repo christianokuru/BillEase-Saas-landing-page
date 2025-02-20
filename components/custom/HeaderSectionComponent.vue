@@ -48,7 +48,7 @@ const text = [
 
     <div>
         <div>
-            <img :src="hero" alt="hero-img" class="max-sm:w-[32px] mx-auto" />
+            <img :src="hero" alt="hero-img" class="max-sm:w-[327px] mx-auto" />
         </div>
     </div>
   </div>

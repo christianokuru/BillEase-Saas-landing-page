@@ -3,20 +3,20 @@ import ButtonComponent2 from "@/components/custom/ButtonComponent2.vue";
 </script>
 
 <template>
-  <div class="mb-[160px]">
-    <div class="flex items-center justify-between w-[1008px] ml-[95px]">
+  <div class="mb-[160px] max-sm:w-[349px] max-sm:border">
+    <div class="flex items-center justify-between w-[1008px] ml-[95px] max-sm:w-[327px] max-sm:ml-[0px] max-sm:border">
       <div>
         <!-- text div -->
         <div class="w-[493px]">
-          <div>
+          <div class="max-sm:w-[327px] max-sm:mb-[24px] border">
             <h1
-              class="text-green text-heading2 w-[475px] leading-[56px] mb-[24px]"
+              class="text-green text-heading2 w-[475px] leading-[56px] mb-[24px] max-sm:text-sub-heading max-sm:w-[327px] max-sm:text-left max-sm:leading-[48px]"
             >
               One seamless invoice at a time.
             </h1>
           </div>
           <div>
-            <p class="text-green w-[445px] text-body-lg leading-[28px]">
+            <p class="text-green w-[445px] text-body-lg leading-[28px] max-sm:w-[327px] max-sm:text-body-sm max-sm:leading-none">
               Thrive with efficient invoicing, ensuring you stay on growth, not
               paperwork.
             </p>
