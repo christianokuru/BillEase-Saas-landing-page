@@ -3,14 +3,14 @@ import ButtonComponent2 from "@/components/custom/ButtonComponent2.vue";
 </script>
 
 <template>
-  <div class="mb-[160px] max-sm:w-[349px] max-sm:mb-[64px]">
+  <div class="mb-[160px] max-sm:w-[349px] max-sm:my-[64px]">
     <div
-      class="flex items-center justify-between w-[1008px] ml-[95px] max-sm:w-[327px] max-sm:ml-[0px] max-sm:border max-sm:flex-col"
+      class="flex items-center justify-between w-[1008px] ml-[95px] max-sm:w-[327px] max-sm:ml-[0px] max-sm:flex-col"
     >
-      <div class="border border-blue-600 max-sm:w-[327px] max-sm:mb-[88px]">
+      <div class="max-sm:w-[327px] max-sm:mb-[88px]">
         <!-- text div -->
-        <div class="w-[493px] border border-red-500 max-sm:w-[327px]">
-          <div class="max-sm:w-[327px] max-sm:mb-[24px] border">
+        <div class="w-[493px]max-sm:w-[327px]">
+          <div class="max-sm:w-[327px] max-sm:mb-[24px]">
             <h1
               class="text-green text-heading2 w-[475px] leading-[56px] mb-[24px] max-sm:text-sub-heading max-sm:w-[327px] max-sm:text-left max-sm:leading-[48px]"
             >
@@ -27,7 +27,7 @@ import ButtonComponent2 from "@/components/custom/ButtonComponent2.vue";
           </div>
 
           <div
-            class="flex items-center mt-[49px] w-[439px] max-sm:flex-col max-sm:w-[327px] max-sm:items-start border"
+            class="flex items-center mt-[49px] w-[439px] max-sm:flex-col max-sm:w-[327px] max-sm:items-start"
           >
             <button-component2
               text="Unlimited Capacity"
@@ -41,7 +41,7 @@ import ButtonComponent2 from "@/components/custom/ButtonComponent2.vue";
         </div>
       </div>
       <!-- right div -->
-      <div class="w-[324px] border border-green-600">
+      <div class="w-[324px]">
         <p class="border-b border-green pb-[40.45px] text-green text-body-lg">
           Create and send invoices in seconds
         </p>
