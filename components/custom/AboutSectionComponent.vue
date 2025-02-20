@@ -31,11 +31,11 @@ import ButtonComponent2 from "@/components/custom/ButtonComponent2.vue";
           >
             <button-component2
               text="Unlimited Capacity"
-              class="bg-lemon text-green w-[223px] font-[600] mr-[24px] hover:bg-[#d1eb089d] max-sm:mb-[16px]"
+              class="bg-lemon text-green font-[600] mr-[24px] hover:bg-[#d1eb089d] max-sm:mb-[16px]"
             />
             <button-component2
               text="24/7 availability"
-              class="bg-lemon text-green w-[223px] font-[600] hover:bg-[#d1eb089d]"
+              class="bg-lemon text-green font-[600] hover:bg-[#d1eb089d]"
             />
           </div>
         </div>
