@@ -16,7 +16,7 @@ import ButtonComponent2 from "@/components/custom/ButtonComponent2.vue";
             </h1>
           </div>
           <div>
-            <p class="text-green w-[445px] text-body-lg leading-[28px] max-sm:w-[327px] max-sm:text-body-sm max-sm:leading-none">
+            <p class="text-green w-[445px] text-body-lg leading-[28px] max-sm:w-[327px] max-sm:text-body-md">
               Thrive with efficient invoicing, ensuring you stay on growth, not
               paperwork.
             </p>
