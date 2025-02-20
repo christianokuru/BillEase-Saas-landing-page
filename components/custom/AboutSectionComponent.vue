@@ -3,11 +3,11 @@ import ButtonComponent2 from "@/components/custom/ButtonComponent2.vue";
 </script>
 
 <template>
-  <div class="mb-[160px] max-sm:w-[349px] max-sm:border">
+  <div class="mb-[160px] max-sm:w-[349px]">
     <div class="flex items-center justify-between w-[1008px] ml-[95px] max-sm:w-[327px] max-sm:ml-[0px] max-sm:border">
       <div>
         <!-- text div -->
-        <div class="w-[493px]">
+        <div class="w-[493px] border border-red-500">
           <div class="max-sm:w-[327px] max-sm:mb-[24px] border">
             <h1
               class="text-green text-heading2 w-[475px] leading-[56px] mb-[24px] max-sm:text-sub-heading max-sm:w-[327px] max-sm:text-left max-sm:leading-[48px]"
@@ -22,10 +22,10 @@ import ButtonComponent2 from "@/components/custom/ButtonComponent2.vue";
             </p>
           </div>
 
-          <div class="flex items-center mt-[49px] w-[439px]">
+          <div class="flex items-center mt-[49px] w-[439px] max-sm:flex-col max-sm:w-[327px] max-sm:items-start border">
             <button-component2
               text="Unlimited Capacity"
-              class="bg-lemon text-green w-[223px] font-[600] mr-[24px] hover:bg-[#d1eb089d]"
+              class="bg-lemon text-green w-[223px] font-[600] mr-[24px] hover:bg-[#d1eb089d] max-sm:mb-[16px]"
             />
             <button-component2
               text="24/7 availability"
