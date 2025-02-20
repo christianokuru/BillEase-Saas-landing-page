@@ -3,11 +3,11 @@ import ButtonComponent2 from "@/components/custom/ButtonComponent2.vue";
 </script>
 
 <template>
-  <div class="border">
-    <div class="border border-red-500 w-[1008px] ml-[70px]">
+  <div class="mb-[160px]">
+    <div class="flex items-center justify-between w-[1008px] ml-[70px]">
       <div>
         <!-- text div -->
-        <div class="border border-blue-500 w-[493px]">
+        <div class="w-[493px]">
           <div>
             <h1
               class="text-green text-heading2 w-[475px] leading-[56px] mb-[24px]"
@@ -35,7 +35,11 @@ import ButtonComponent2 from "@/components/custom/ButtonComponent2.vue";
         </div>
       </div>
       <!-- right div -->
-      <div></div>
+      <div class="w-[324px]">
+        <p class="border-b border-green pb-[40.45px] text-green text-body-lg">Create and send invoices in seconds</p>
+        <p class="border-b border-green py-[40.45px] text-green text-body-lg">Pay bills on time without missing a beat</p>
+        <p class="pt-[40.45px] text-green text-body-lg">Control your cash flow on-demand</p>
+      </div>
     </div>
   </div>
 </template>
