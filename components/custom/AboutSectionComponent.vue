@@ -1,5 +1,5 @@
 <script setup>
-import ButtonComponent from '@/components/custom/ButtonComponent.vue';
+import ButtonComponent2 from '@/components/custom/ButtonComponent2.vue';
 </script>
 
 <template>
@@ -16,8 +16,9 @@ import ButtonComponent from '@/components/custom/ButtonComponent.vue';
                 </div>
             </div>
             <!-- button div -->
-            <div>
-                <button-component text="Unlimited Capacity"  class="bg-lemon text-green"/>
+            <div class="mt-[49px]">
+                <button-component2 text="Unlimited Capacity"  class="bg-lemon text-green w-[223px] font-[600] mr-[24px]"/>
+                <button-component2 text="24/7 availability"  class="bg-lemon text-green w-[223px] font-[600]"/>
             </div>
            </div>
            <!-- right div -->
