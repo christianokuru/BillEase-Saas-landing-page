@@ -4,7 +4,7 @@ import ButtonComponent2 from "@/components/custom/ButtonComponent2.vue";
 
 <template>
   <div class="mb-[160px]">
-    <div class="flex items-center justify-between w-[1008px] ml-[70px]">
+    <div class="flex items-center justify-between w-[1008px] ml-[95px]">
       <div>
         <!-- text div -->
         <div class="w-[493px]">
