@@ -33,7 +33,7 @@ const displayedImages = computed(() => {
 </script>
 
 <template>
-  <div class="bg-green w-[1440px] flex items-center space-x-[79.6px] px-[221px] py-[47.57px] mb-[160px] max-sm:mb-[64px] max-sm:w-[375px] max-sm:px-1 max-sm:ml-[-24px]">
+  <div class="bg-green ml-[-120px] w-[1440px] flex items-center space-x-[79.6px] px-[221px] py-[47.57px] mb-[160px] max-sm:mb-[64px] max-sm:w-[375px] max-sm:px-1 max-sm:ml-[-24px]">
     <div v-for="(image, index) in displayedImages" :key="index" class="max-sm:mx-[12px]">
       <img :src="image" alt="sponsor-logo" class="space-x-[79.6px]">
     </div>
