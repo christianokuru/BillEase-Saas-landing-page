@@ -3,7 +3,7 @@ import ButtonComponent2 from "@/components/custom/ButtonComponent2.vue";
 </script>
 
 <template>
-  <div class="mb-[160px] max-sm:w-[349px] max-sm:my-[64px]">
+  <div class="mb-[160px] max-sm:w-[349px] max-sm:my-[64px] px-[118px] max-sm:px-[0px]">
     <div
       class="flex items-center justify-between w-[1008px] ml-[95px] max-sm:w-[327px] max-sm:ml-[0px] max-sm:flex-col"
     >

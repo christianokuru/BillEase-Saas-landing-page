@@ -17,7 +17,7 @@ const text = [
   <div>
     <div>
       <!-- texts them them -->
-      <div class="w-[1204px] max-sm:w-[322px]">
+      <div class="w-[1204px] max-sm:w-[322px] ml-[118px] max-sm:ml-0">
         <h1 class="text-green max-sm:text-[46px] max-sm:text-left max-sm:leading-none mb-[32px] text-heading1 text-center">
           Your All-in-One Invoicing Tool
         </h1>
@@ -30,7 +30,7 @@ const text = [
         </p>
       </div>
       <!-- CTA -->
-      <div class="max-sm:mb-[56px] flex items-center w-[314px] mx-auto mb-[88px]">
+      <div class="max-sm:mb-[56px] flex items-center w-[314px] mx-auto mb-[88px] max-sm:ml-0">
         <button-component
           text="Get Started"
           :icon="arrow"
