@@ -7,7 +7,7 @@ import { navlinks } from "@/lib/navlinks.js";
 </script>
 
 <template>
-  <div class="mb-[122px] max-sm:mb-[50px]  px-[118px] max-sm:px-[0px]">
+  <div class="mb-[122px] max-sm:mb-[50px]  px-[118px] max-sm:px-[7px]">
     <div class="max-sm:pt-[36px] flex items-center justify-between pt-[40px] mb-[10px]">
       <!-- Logo -->
       <logo-component />
