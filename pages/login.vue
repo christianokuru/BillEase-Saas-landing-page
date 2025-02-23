@@ -1,30 +1,48 @@
 <script setup>
-import { ref } from 'vue';
-
+import { ref } from "vue";
 
 definePageMeta({
-    layout: 'auth-layout', // Use the layout name as a string
-    title: 'Login', // This sets the page title
-    meta: [
-      { name: 'description', content: 'Login to your account' },
-      { property: 'og:title', content: 'Login' },
-      { property: 'og:description', content: 'Login to your account' },
-    ],
+  layout: "auth-layout",
+  title: "Login",
+  meta: [
+    { name: "description", content: "Login to your account" },
+    { property: "og:title", content: "Login" },
+    { property: "og:description", content: "Login to your account" },
+  ],
 });
 
-const title = ref('Sign Page')
-const description = ref('Please input your details to create an accout');
+const title = ref("Sign Page");
+const description = ref("Please input your details to create an accout");
 </script>
 
 <template>
-  <div>
-    <h1>{{ title }}</h1> <!-- Display the title prop -->
-    <p>{{ description }}</p> <!-- Display the description prop -->
+  <div class="border border-green rounded-2xl w-1/2 mx-auto pl-6 pt-6">
+    <div class="mb-8">
+      <h1 class="text-3xl font-semibold mb-2">{{ title }}</h1>
+      <p>{{ description }}</p>
+    </div>
+
     <form @submit.prevent="submit">
-      <!-- Your form elements here -->
-      <!-- <input type="text" placeholder="Email" v-model="email" />
-      <input type="password" placeholder="Password" v-model="password" />
-      <button type="submit">Login</button> -->
+      <div class="flex flex-col w-1/2">
+        <input
+          type="text"
+          placeholder="Email"
+          v-model="email"
+          class="border border-gray-500 rounded-lg mb-7 h-10"
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          v-model="password"
+          class="border border-gray-500 rounded-lg mb-7 h-10"
+        />
+        <button
+          type="submit"
+          class="border p-1 w-20 my-5 rounded-xl bg-green text-lemon"
+        >
+          Sign in
+        </button>
+      </div>
     </form>
   </div>
 </template>
