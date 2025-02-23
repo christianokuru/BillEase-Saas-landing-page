@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue";
+import { ref, reactive } from "vue";
 
 definePageMeta({
   layout: "auth-layout",
@@ -11,8 +11,23 @@ definePageMeta({
   ],
 });
 
+
 const title = ref("Sign Page");
 const description = ref("Please input your details to create an accout");
+
+const data = reactive({
+  email: '',
+  password: '',
+})
+
+const isLoading = ref()
+
+const submit = () => {
+  isLoading.value = true
+
+  
+}
+
 </script>
 
 <template>
