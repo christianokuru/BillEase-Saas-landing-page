@@ -4,11 +4,14 @@ import ButtonComponent from "@/components/custom/ButtonComponent.vue";
 import MobileNavbarComponent from "@/components/custom/MobileNavbarComponent.vue";
 import arrow from "@/assets/icons/arrow-right.svg";
 import { navlinks } from "@/lib/navlinks.js";
+
 </script>
 
 <template>
   <div class="mb-[122px] max-sm:mb-[50px]">
-    <div class="max-sm:pt-[36px] flex items-center justify-between pt-[40px] mb-[10px]">
+    <div
+      class="max-sm:pt-[36px] flex items-center justify-between pt-[40px] mb-[10px]"
+    >
       <!-- Logo -->
       <logo-component />
 
@@ -25,11 +28,13 @@ import { navlinks } from "@/lib/navlinks.js";
 
       <!-- Sign In Button (Desktop) -->
       <div class="max-sm:hidden">
-        <button-component
-          text="Sign In"
-          :icon="arrow"
-          class="bg-green text-lemon hover:bg-[#0e2e28db]"
-        />
+        <nuxt-link to="/login">
+          <button-component
+            text="Sign In"
+            :icon="arrow"
+            class="bg-green text-lemon hover:bg-[#0e2e28db]"
+          />
+        </nuxt-link>
       </div>
 
       <!-- Mobile Navigation Component -->
