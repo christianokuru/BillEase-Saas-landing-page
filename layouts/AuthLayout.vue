@@ -1,7 +1,7 @@
 <script setup>
 import NavbarComponent from "@/components/custom/NavbarComponent.vue";
 import FooterComponent from "@/components/custom/FooterComponent.vue";
-// import { ref } from 'vue';
+
 </script>
 
 <template>
