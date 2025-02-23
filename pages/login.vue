@@ -28,17 +28,17 @@ const description = ref("Please input your details to create an accout");
           type="text"
           placeholder="Email"
           v-model="email"
-          class="border border-gray-500 rounded-lg mb-7 h-10"
+          class="border border-gray-500 rounded-lg mb-7 h-10 pl-4"
         />
         <input
           type="password"
           placeholder="Password"
           v-model="password"
-          class="border border-gray-500 rounded-lg mb-7 h-10"
+          class="border border-gray-500 rounded-lg mb-7 h-10 pl-4"
         />
         <button
           type="submit"
-          class="border p-1 w-20 my-5 rounded-xl bg-green text-lemon"
+          class="border py-3 w-20 my-5 rounded-xl bg-green text-lemon font-semibold"
         >
           Sign in
         </button>
