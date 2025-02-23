@@ -28,13 +28,13 @@ const description = ref("Please input your details to create an accout");
           type="text"
           placeholder="Email"
           v-model="email"
-          class="border border-gray-500 rounded-lg mb-7 h-10 pl-4"
+          class="border border-green rounded-lg mb-7 h-10 pl-4 outline-none" 
         />
         <input
           type="password"
           placeholder="Password"
           v-model="password"
-          class="border border-gray-500 rounded-lg mb-7 h-10 pl-4"
+          class="border border-green rounded-lg mb-7 h-10 pl-4 outline-none"
         />
         <button
           type="submit"
