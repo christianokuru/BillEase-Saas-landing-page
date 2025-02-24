@@ -33,7 +33,7 @@ const submit = () => {
 <template>
   <div class="border border-green rounded-2xl w-1/2 mx-auto pl-6 pt-6">
     <div class="mb-8">
-      <h1 class="text-3xl font-semibold mb-2">{{ title }}</h1>
+      <h1 class="text-3xl font-semibold mb-2 text-center">{{ title }}</h1>
       <p>{{ description }}</p>
     </div>
 
